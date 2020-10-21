@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const ObjectId = require('mongodb').ObjectID
 const MongoClient = require('mongodb').MongoClient
 
-const uri = `mongodb+srv://user:senha@databasename.sz9xq.mongodb.net/<dbname>?retryWrites=true&w=majority`
+const uri = //url for your mongodb acess
 
 MongoClient.connect(uri,(err,client)=>{
     if(err) return console.log(err)
